@@ -58,27 +58,27 @@
 		
 		<!-- <div class="grid-container">
 			<figure>
-				<img src="../docs/images/Section1Part1Img1.png" style="width:70%">
+				<img src="images/Section1Part1Img1.png" style="width:70%">
 				<figcaption>Original Control Points</figcaption>
 			</figure>
 			
 			<figure>
-				<img src="../docs/images/Section1Part1Img2.png" style="width:70%">
+				<img src="images/Section1Part1Img2.png" style="width:70%">
 				<figcaption>First Subdivision</figcaption>
 			</figure>
 			
 			<figure>
-				<img src="../docs/images/Section1Part1Img3.png" style="width:70%">
+				<img src="images/Section1Part1Img3.png" style="width:70%">
 				<figcaption>Second Subdivision</figcaption>
 			</figure>
 			
 			<figure>
-				<img src="../docs/images/Section1Part1Img4.png" style="width:70%">
+				<img src="images/Section1Part1Img4.png" style="width:70%">
 				<figcaption>Third Subdivision</figcaption>
 			</figure>
 			
 			<figure>
-				<img src="../docs/images/Section1Part1Img5.png" style="width:70%">
+				<img src="images/Section1Part1Img5.png" style="width:70%">
 				<figcaption>Different Bezier Curve w/ Modified Parameter t</figcaption>
 			</figure>
 		</div> -->
@@ -87,27 +87,27 @@
 			<table style="width: 100%; text-align: center; border-collapse: collapse;">
 				<tr>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section1Part1Img1.png" style="width:100%"/>
+					<img src="images/Section1Part1Img1.png" style="width:100%"/>
 					<figcaption>Original Control Points</figcaption>
 				</td>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section1Part1Img2.png" style="width:100%"/>
+					<img src="images/Section1Part1Img2.png" style="width:100%"/>
 					<figcaption>First Subdivision</figcaption>
 				</td>
 				</tr>
 				<tr>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section1Part1Img3.png" style="width:100%"/>
+					<img src="images/Section1Part1Img3.png" style="width:100%"/>
 					<figcaption>Second Subdivision</figcaption>
 				</td>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section1Part1Img4.png" style="width:100%"/>
+					<img src="images/Section1Part1Img4.png" style="width:100%"/>
 					<figcaption>Third Subdivision</figcaption>
 				</td>
 				</tr>
 				<tr>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section1Part1Img5.png" style="width:100%"/>
+					<img src="images/Section1Part1Img5.png" style="width:100%"/>
 					<figcaption>Different Bezier Curve w/ Modified Parameter t</figcaption>
 				</td>
 				<td style="text-align: center;">
@@ -146,7 +146,7 @@
 		<h3>Part 2: Bezier surfaces with separable 1D de Casteljau</h3>
 		De Casteljau’s algorithm extends to Bezier Surfaces similarly to how it applies to Bezier Curves. Essentially, you apply the algorithm twice, once using the u parameter on the control points, and once again using the v parameter on the resulting control points. This is effectively performing a linear interpolation across the surface defined by the control points. This means, essentially, that you are performing step by step iteration calculating points in the direction of u and then in the direction of v until you arrive at the desired point on the surface. 
 		<figure>
-			<img src="../docs/images/Section1Part2.png" style="width:70%">
+			<img src="images/Section1Part2.png" style="width:70%">
 			<figcaption>Our Rendered Bezier Surface</figcaption>
 		</figure>
 
@@ -156,11 +156,11 @@
 		<h3>Part 3: Area-weighted vertex normals</h3>
 		To implement the area weighted vertex normals, we first calculated the area of the input vertices' triangle. We did this by first obtaining the location of the three vertices that made up the triangle, and then calcuating two edges by subtracting the vertices from each other. We then, finally, got the area of the triangle by taking half of the magnitude of the cross product of the two edges we obtained earlier. To get the final area weighted vertex normal, we multiplied the area by the normalized cross product of the two edges we calculated earlier. 
 		<figure>
-			<img src="../docs/images/Section2Part3SmoothTeapot.png" style="width:70%">
+			<img src="images/Section2Part3SmoothTeapot.png" style="width:70%">
 			<figcaption>Phong Shaded Teapot</figcaption>
 		</figure>
 		<figure>
-			<img src="../docs/images/Section2Part3NormalTeapot.png" style="width:70%">
+			<img src="images/Section2Part3NormalTeapot.png" style="width:70%">
 			<figcaption>Normal Shaded Teapot</figcaption>
 		</figure>
 
@@ -186,11 +186,11 @@
 			<table style="width: 100%; text-align: center; border-collapse: collapse;">
 			  <tr>
 				<td style="text-align: center;">
-				  <img src="../docs/images/Section2Part4Before.png" width="100%"/>
+				  <img src="images/Section2Part4Before.png" width="100%"/>
 				  <figcaption>Before Edge Flip Operations</figcaption>
 				</td>
 				<td style="text-align: center;">
-				  <img src="../docs/images/Section2Part4After.png" width="100%"/>
+				  <img src="images/Section2Part4After.png" width="100%"/>
 				  <figcaption>After Edge Flip Operations</figcaption>
 				</td>
 			</tr>
@@ -212,11 +212,11 @@
 			<table style="width: 100%; text-align: center; border-collapse: collapse;">
 			  <tr>
 				<td style="text-align: center;">
-				  <img src="../docs/images/Section2Part5Img1.png" width="100%"/>
+				  <img src="images/Section2Part5Img1.png" width="100%"/>
 				  <figcaption>Before Split Operations</figcaption>
 				</td>
 				<td style="text-align: center;">
-				  <img src="../docs/images/Section2Part5Img2.png" width="100%"/>
+				  <img src="images/Section2Part5Img2.png" width="100%"/>
 				  <figcaption>After Split Operations</figcaption>
 				</td>
 			</tr>
@@ -227,11 +227,11 @@
 			<table style="width: 100%; text-align: center; border-collapse: collapse;">
 			  <tr>
 				<td style="text-align: center;">
-				  <img src="../docs/images/Section2Part5Img3.png" width="100%"/>
+				  <img src="images/Section2Part5Img3.png" width="100%"/>
 				  <figcaption>Before Split + Edge Flip Operations</figcaption>
 				</td>
 				<td style="text-align: center;">
-				  <img src="../docs/images/Section2Part5Img4.png" width="100%"/>
+				  <img src="images/Section2Part5Img4.png" width="100%"/>
 				  <figcaption>After Split + Edge Flip Operations</figcaption>
 				</td>
 			</tr>
@@ -249,21 +249,21 @@
 			<table style="width: 100%; text-align: center; border-collapse: collapse;">
 				<tr>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section2Part6Img1.png" style="width:100%"/>
+					<img src="images/Section2Part6Img1.png" style="width:100%"/>
 					<figcaption>Original Object</figcaption>
 				</td>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section2Part6Img2.png" style="width:100%"/>
+					<img src="images/Section2Part6Img2.png" style="width:100%"/>
 					<figcaption>First Subdivision</figcaption>
 				</td>
 				</tr>
 				<tr>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section2Part6Img3.png" style="width:100%"/>
+					<img src="images/Section2Part6Img3.png" style="width:100%"/>
 					<figcaption>Second Subdivision</figcaption>
 				</td>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section2Part6Img4.png" style="width:100%"/>
+					<img src="images/Section2Part6Img4.png" style="width:100%"/>
 					<figcaption>Third Subdivision</figcaption>
 				</td>
 				</tr>
@@ -278,21 +278,21 @@
 			<table style="width: 100%; text-align: center; border-collapse: collapse;">
 				<tr>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section2Part6Img5.png" style="width:100%"/>
+					<img src="images/Section2Part6Img5.png" style="width:100%"/>
 					<figcaption>Original Object</figcaption>
 				</td>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section2Part6Img6.png" style="width:100%"/>
+					<img src="images/Section2Part6Img6.png" style="width:100%"/>
 					<figcaption>First Subdivision</figcaption>
 				</td>
 				</tr>
 				<tr>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section2Part6Img7.png" style="width:100%"/>
+					<img src="images/Section2Part6Img7.png" style="width:100%"/>
 					<figcaption>Second Subdivision</figcaption>
 				</td>
 				<td style="text-align: center;">
-					<img src="../docs/images/Section2Part6Img8.png" style="width:100%"/>
+					<img src="images/Section2Part6Img8.png" style="width:100%"/>
 					<figcaption>Third Subdivision</figcaption>
 				</td>
 				</tr>
